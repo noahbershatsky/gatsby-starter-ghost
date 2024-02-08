@@ -91,14 +91,14 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 )}
                                 <a
                                     className="site-nav-item"
-                                    href={`https://feedly.com/i/subscription/feed/${config.siteUrl}/rss/`}
+                                    href={`https://www.threads.net/@noahbershatsky`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     <img
                                         className="site-nav-icon"
-                                        src="/images/icons/rss.svg"
-                                        alt="RSS Feed"
+                                        src="/images/icons/threads.svg"
+                                        alt="Threads"
                                     />
                                 </a>
                             </div>
