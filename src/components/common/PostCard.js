@@ -25,7 +25,7 @@ const PostCard = ({ post }) => {
                         <Tags
                             post={post}
                             visibility="public"
-                            autolink={true}
+                            autolink={false}
                         />
                     </div>
                 )}
