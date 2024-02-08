@@ -128,6 +128,18 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 >
                                     About
                                 </Link>
+                                <Link
+                                    className="site-nav-button"
+                                    to="/nerdy-notes"
+                                >
+                                    Nerdy Notes
+                                </Link>
+                                <Link
+                                    className="site-nav-button"
+                                    to="/contact"
+                                >
+                                    Contact
+                                </Link>        
                             </div>
                         </nav>
                     </div>
@@ -145,6 +157,12 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <div className="site-foot-nav container">
                         <div className="site-foot-nav-left">
                             <Link to="/">{site.title}</Link> © 2024
+                        </div>
+                <div className="site-foot-nav-right">
+                            <Navigation
+                                data={site.navigation}
+                                navClass="site-foot-nav-item"
+                            />
                         </div>
                     </div>
                 </footer>
