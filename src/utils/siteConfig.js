@@ -7,7 +7,7 @@ module.exports = {
 
     postsPerPage: 18, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-    siteTitleMeta: ``, // This allows an alternative site title for meta data for pages.
+    siteTitleMeta: `Nerd Stuff`, // This allows an alternative site title for meta data for pages.
     siteDescriptionMeta: ``, // This allows an alternative site description for meta data for pages.
 
     shareImageWidth: 1000, // Change to the width of your default share image
