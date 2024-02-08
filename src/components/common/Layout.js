@@ -127,13 +127,13 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     to="/about"
                                 >
                                     About
-                                </Link>
+                                </Link>&nbsp
                                 <Link
                                     className="site-nav-button"
                                     to="/nerdy-notes"
                                 >
                                     Nerdy Notes
-                                </Link>
+                                </Link>&nbsp
                                 <Link
                                     className="site-nav-button"
                                     to="/contact"
